@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Doge",
+        "img": "../../img/desktopGame/logo_doge.png",
+        "windows": "https://docs.google.com/uc?export=download&id=1YtSeSz2SGgod-LTt4ymz4eQkBs24fris",
+        "linux": "",
+        "mac": ""
+    },
+    {
+        "title": "Angry Bird",
+        "img": "../../img/desktopGame/logo_angry_bird.png",
+        "windows": "https://docs.google.com/uc?export=download&id=1vfYl7xJvKMx0At6dMt_Ih34eIhHQVCTs",
+        "linux": "",
+        "mac": ""
+    }
+]

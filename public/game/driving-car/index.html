@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta id="Viewport" name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Game: Driving Car</title>
+    <link type="image/x-icon" rel="icon" href="./images/icon-driving-car.png" />
+    <link href="./css/style.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="../../jquery-3.5.1.min.js"></script>
+    <script src="../../protected.min.js"></script>
+</head>
+<body>
+    <div id="score_div">
+        Score: <span id="score">0</span><br />
+    </div>
+    <div id="name_div">
+        <span>Game created by <b><u>NKDuy</u></b></span>
+    </div>
+    <div class="help">
+        Use arrow keys to move.
+    </div>
+    <div class="copyright_div">
+        <script>
+            $(".copyright_div").html("&copy; " + new Date().getFullYear() + " NKDuy. All Rights Reserved.");
+        </script>
+    </div>
+    
+    <div id="container">
+            
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+        <div id="line_4" class="line"></div>
+        <div id="line_5" class="line"></div>
+        <div id="line_6" class="line"></div>
+        
+        <div id="car" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_1" class="car" >
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_2" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_3" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_4" class="car" >
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_5" class="car" >
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_6" class="car" >
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_7" class="car" >
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_8" class="car" >
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+
+        <div id="restart_div">
+            <button id="restart">
+                Restart
+                <br>
+                <small class="small_text">(Press Enter to restart)</small>
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/script.min.js"></script>
+</body>
+</html>

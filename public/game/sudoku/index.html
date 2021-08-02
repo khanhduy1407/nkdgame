@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link type="image/x-icon" rel="icon" href="./images/icon-sudoku.png" />
+    <title>Game: Sudoku</title>
+    <link rel="stylesheet" type="text/css" href="./css/sudoku_game.min.css">
+
+    <script src="../../jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./js/sudoku_game.min.js"></script>
+    <script src="../../protected.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="SudokuBanner">
+            <div id="title">SUDOKU</div>
+
+            <div class="GameOptions">
+                <button id="newGame">New game</button>
+                <button id="hint">Hint</button>
+                <button id="check">Check</button>
+                <button id="solve">Solve</button>
+                <button id="reset">Restart</button>
+            </div>
+        </div>
+
+        <div class="BoardArea">
+            <div class="SudokuBoard"></div>
+
+            <div class="NumberArea">
+                <button class="NumberButton" id="button1">1</button>
+                <button class="NumberButton" id="button2">2</button>
+                <button class="NumberButton" id="button3">3</button>
+                <button class="NumberButton" id="button4">4</button>
+                <button class="NumberButton" id="button5">5</button>
+                <button class="NumberButton" id="button6">6</button>
+                <button class="NumberButton" id="button7">7</button>
+                <button class="NumberButton" id="button8">8</button>
+                <button class="NumberButton" id="button9">9</button>
+                <button class="NumberButton" id="button0">x</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="ModalWindow">
+        <p class="ModalText">Congratulations, you have completed the game!
+            <br>Start a new game?</p>
+        <button class="ModalButton" id="modalNewGame">Yes</button>
+        <button class="ModalButton" id="modalNoNewGame">No</button>
+    </div>
+
+    <div class="footer">
+        Game created by <b><u>NKDuy</u></b>
+        <p id="copyright">
+            <script>
+                $("#copyright").html("&copy; " + new Date().getFullYear() + " NKDuy. All Rights Reserved.");
+            </script>
+        </p>
+    </div>
+</body>
+</html>

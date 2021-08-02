@@ -1,0 +1,72 @@
+[
+    {
+        "title": "2048",
+        "img": "../../img/webGame/logo_2048.png",
+        "path": "/game/2048"
+    },
+    {
+        "title": "Doodle Jump",
+        "img": "../../img/webGame/logo_doodle_jump.png",
+        "path": "/game/doodle-jump"
+    },
+    {
+        "title": "Hextris",
+        "img": "../../img/webGame/logo_hextris.png",
+        "path": "/game/hextris"
+    },
+    {
+        "title": "Driving Car",
+        "img": "../../img/webGame/logo_driving_car.png",
+        "path": "/game/driving-car"
+    },
+    {
+        "title": "Skiing",
+        "img": "../../img/webGame/logo_skiing.png",
+        "path": "/game/skiing"
+    },
+    {
+        "title": "Sudoku",
+        "img": "../../img/webGame/logo_sudoku.png",
+        "path": "/game/sudoku"
+    },
+    {
+        "title": "Minesweeper",
+        "img": "../../img/webGame/logo_minesweeper.png",
+        "path": "/game/minesweeper"
+    },
+    {
+        "title": "Mahjong",
+        "img": "../../img/webGame/logo_mahjong.png",
+        "path": "/game/mahjong"
+    },
+    {
+        "title": "Solitaire Tripeaks",
+        "img": "../../img/webGame/logo_solitaire_tripeaks.png",
+        "path": "/game/solitaire-tripeaks"
+    },
+    {
+        "title": "Ghost Ninja",
+        "img": "../../img/webGame/logo_ghost_ninja.png",
+        "path": "/game/ghost-ninja"
+    },
+    {
+        "title": "Tron",
+        "img": "../../img/webGame/logo_tron.png",
+        "path": "/game/tron"
+    },
+    {
+        "title": "Castles",
+        "img": "../../img/webGame/logo_castle.png",
+        "path": "/game/castles"
+    },
+    {
+        "title": "Jumping Dead",
+        "img": "../../img/webGame/logo_jumping_dead.png",
+        "path": "/game/jumping-dead"
+    },
+    {
+        "title": "Smash Cubes",
+        "img": "../../img/webGame/logo_smash_cubes.png",
+        "path": "/game/smash-cubes"
+    }
+]

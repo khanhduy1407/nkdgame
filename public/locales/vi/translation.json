@@ -1,0 +1,44 @@
+{
+    "home": {
+        "title": "Trang chủ",
+        "list": {
+            "contact": "Liên hệ"
+        },
+        "content": {
+            "web": {
+                "p": "Chơi trò chơi ngay trong trình duyệt của bạn."
+            },
+            "mobile": {
+                "android": "Trò chơi dành cho điện thoại Android trên Amazon Appstore",
+                "ios": "Hiện tại không có trò chơi nào có sẵn trên iOS"
+            },
+            "desktop": {
+                "p": "Chơi trò chơi trên Desktop của bạn ngay cả khi không có kết nối mạng"
+            }
+        }
+    },
+    "feedback": {
+        "title": "Phản hồi",
+        "h3": "Gửi phản hồi",
+        "p": "Hãy cho chúng tôi biết bạn cần chúng tôi cải thiện điều gì?",
+        "input": {
+            "fullName": "Họ Tên",
+            "email": "Email",
+            "message": "Phản hồi của bạn",
+            "send": "Gửi"
+        }
+    },
+    "license": {
+        "title": "Giấy phép"
+    },
+    "footer": {
+        "feedback": "Phản hồi",
+        "license": "Giấy phép",
+        "comments": "Bình luận"
+    },
+    "error": {
+        "title": "Lỗi",
+        "desc": "Rất tiếc...có vẻ như bạn đã bị lạc.",
+        "btn": "Trang chủ"
+    }
+}

@@ -1,0 +1,347 @@
+.main {
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    transition: 0.6s;
+}
+header.sticky {
+    padding: 5px 100px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+header .logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header .logo img {
+    margin-right: 7px;
+    max-width: 40px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+    color: #000;
+}
+
+.toggle {
+    display: none;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../../img/bg_home.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.sec {
+    background: #fff;
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.mxw800p {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.mxw800p h3 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.mxw800p p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.webGameBox {
+    position: relative;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+}
+
+.webGameBox .box {
+    margin: 0 auto;
+    width: 200px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #1B8ADB;
+}
+.webGameBox .box:hover {
+    box-shadow: 0 0 7px #868686,
+                0 5px 0 #1B8ADB;
+}
+
+.webGameBox .box .btn {
+    text-decoration: none;
+}
+
+.webGameBox .box .btn .logoBx {
+    margin-top: 25px;
+}
+.webGameBox .box .btn .logoBx img {
+    max-width: 90px;
+    margin-bottom: 15px;
+}
+
+.webGameBox .box .btn .textBx h2 {
+    font-size: 20px;
+    color: #1B8ADB;
+}
+
+.img_store {
+    max-width: 250px;
+}
+
+.desktopGameBox {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.desktopGameBox .dtBox {
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #1B8ADB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.desktopGameBox .dtBox:hover {
+    box-shadow: 0 0 7px #868686,
+                0 5px 0 #1B8ADB;
+}
+
+.desktopGameBox .dtBox img {
+    margin: 10px 0;
+    max-width: 100px;
+}
+
+.desktopGameBox .dtBox h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #1B8ADB;
+}
+
+.desktopGameBox .dtBox .btnDtDownload {
+    margin-bottom: 10px;
+}
+
+.desktopGameBox .dtBox .btnDtDownload a img {
+    margin: 0 15px;
+    max-width: 30px;
+}
+
+.footer {
+    padding: 10px 0;
+    background: rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer .sci {
+    margin-bottom: 10px;
+}
+.footer .sci ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .sci ul li {
+    margin: 0 15px;
+    list-style: none;
+}
+.footer .sci ul li a img {
+    max-width: 30px;
+}
+
+.footer .moreUrl {
+    margin-bottom: 10px;
+}
+.footer .moreUrl ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .moreUrl ul li {
+    margin: 0 12px;
+}
+.footer .moreUrl ul li:nth-child(1) {
+    content: '';
+    list-style: none;
+}
+.footer .moreUrl ul li a {
+    color: #1B8ADB;
+    text-decoration: none;
+}
+.footer .moreUrl ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+    header .logo {
+        font-size: 1.7em;
+    }
+    header .logo img {
+        max-width: 35px;
+    }
+
+    .toggle {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .toggle::before {
+        content: '';
+        position: absolute;
+        top: 4px;
+        width: 100%;
+        height: 2px;
+        background: #000;
+        z-index: 1;
+        box-shadow: 0 10px 0 #000;
+        transition: 0.5s;
+    }
+
+    .toggle::after {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        width: 100%;
+        height: 2px;
+        background: #000;
+        z-index: 1;
+        transition: 0.5s;
+    }
+
+    header,
+    header.sticky {
+        padding: 5px 50px;
+        background: #fff;
+    }
+
+    header ul {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        text-align: center;
+        overflow: auto;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    header.active ul {
+        padding-top: 20px;
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header.active ul li a {
+        display: inline-block;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    header .logo,
+    header ul li a {
+        color: #000;
+    }
+
+    .webGameBox {
+        grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    }
+}
+
+@media (max-width: 496px) {
+    .webGameBox .box {
+        width: 100%;
+    }
+}

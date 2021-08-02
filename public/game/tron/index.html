@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game: Tron</title>
+    <link href="tron-favicon.ico" rel="icon" type="image/x-icon" />
+
+    <link rel="stylesheet" type="text/css" href="./css/bike.min.css">
+
+    <script src="../../jquery-3.5.1.min.js"></script>
+    <script src="../../protected.min.js"></script>
+</head>
+
+<body>
+    <div class="intro-outro">
+        <h1 class="start-display" id="instructions">Instructions</h1>
+        <div class="start-display" id="instructions">
+            Don't stab! You are <span style="color: blue;">blue light ring</span>.
+            Avoid walls and light trails left by you and your opponent.
+            Navigate your ring of light with the arrow keys.
+        </div>
+        <h1 class="start-display" id="start">START</h1>
+        <h1 class="start-display" id="two-player">2 PLAYER</h1>
+        <div class="start-display" id="instructions" style="font-size: 18px;">
+            (<span style="color: #FF4500">Player 2</span> use WASD)
+        </div>
+
+        <h1 class="end-display" id="you-win">You win!</h1>
+        <h1 class="end-display" id="computer-win">Computer wins!</h1>
+        <h1 class="end-display" id="player1-win">Player 1 wins!</h1>
+        <h1 class="end-display" id="player2-win">Player 2 wins!</h1>
+        <h1 class="end-display" id="replay">RESTART</h1>
+    </div>
+
+    <div class="display">
+        <div class="leftspace">
+        <div class="score" style="display: none;">
+            <h1 class="left-header"> Score </h1>
+            <span class="blue-wins">0</span>  -
+            <span class="red-wins">0</span>
+        </div>
+
+        <div class="difficulty" style="display: none;">
+            <h1 class="left-header"> Difficult </h1>
+            <h1 class="easy">Easy</h1>
+            <h1 class="medium">Medium</h1>
+            <h1 class="hard">Hard</h1>
+        </div>
+        </div>
+
+        <figure class="tron-game">
+        </figure>
+
+        <div class="rightspace"></div>
+    </div>
+
+    <script src="./js/coord.min.js"></script>
+    <script src="./js/bike.min.js"></script>
+    <script src="./js/board.min.js"></script>
+    <script src="./js/view.min.js"></script>
+    <script>
+        $(".end-display").hide();
+        var rootEl = $('.tron-game');
+        var view;
+        window.wins = {blue: 0, red: 0}
+
+        $("#start").on("click", function() {
+        $(".start-display").hide();
+        $(".score, .difficulty").show();
+        var view = new View(rootEl);
+        view.startGame();
+        })
+
+        $("#two-player").on("click", function() {
+        $(".start-display").hide();
+        $(".score").show();
+
+        window.players = 2;
+        var view = new View(rootEl, window.players);
+        view.startGame();
+        })
+
+        $("#replay").on("click", function() {
+        $(".end-display").hide();
+        var view = new View(rootEl, window.players);
+        view.startGame();
+        })
+    </script>
+</body>
+</html>

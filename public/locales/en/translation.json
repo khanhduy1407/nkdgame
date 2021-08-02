@@ -1,0 +1,44 @@
+{
+    "home": {
+        "title": "Home",
+        "list": {
+            "contact": "Contact"
+        },
+        "content": {
+            "web": {
+                "p": "Play the game right in your browser."
+            },
+            "mobile": {
+                "android": "Games for Android phones on the Amazon Appstore",
+                "ios": "There are currently no games available on iOS"
+            },
+            "desktop": {
+                "p": "Play games on your Desktop even without a network connection"
+            }
+        }
+    },
+    "feedback": {
+        "title": "Feedback",
+        "h3": "Send Us A Feedback",
+        "p": "Tell us what do you need us to improve on?",
+        "input": {
+            "fullName": "Full Name",
+            "email": "Email Address",
+            "message": "Your feedback",
+            "send": "Send"
+        }
+    },
+    "license": {
+        "title": "License"
+    },
+    "footer": {
+        "feedback": "Feedback",
+        "license": "License",
+        "comments": "Comments"
+    },
+    "error": {
+        "title": "Error",
+        "desc": "Opps...looks like you got lost.",
+        "btn": "Go Home"
+    }
+}

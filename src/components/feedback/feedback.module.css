@@ -1,0 +1,191 @@
+.contact {
+    background: #fff;
+    padding: 0 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.mxw800p {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.mxw800p h3,
+.mxw800p p {
+    color: #000;
+}
+
+.mxw800p h3 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.mxw800p p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.contactForm {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contactForm .form {
+    width: 100%;
+}
+
+.contactForm .row100 {
+    display: flex;
+    width: 100%;
+}
+
+.contactForm .row100 .inputBx50 {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.contactForm .row100 .inputBx100 {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.contactForm .row100 input,
+.contactForm .row100 textarea {
+    position: relative;
+    margin: 20px 0;
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    background: transparent;
+    outline: none;
+    resize: none;
+}
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textarea::placeholder {
+    color: rgba(0,0,0,0.5);
+}
+.contactForm .row100 textarea {
+    height: 100px;
+}
+.contactForm .row100 .submitBtn {
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.contactForm .row100 .waiting {
+    display: none;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    animation: svgRotate 1s linear infinite;
+}
+@keyframes svgRotate {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+}
+.contactForm .row100 .waiting circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+    stroke: #03a9f4;
+    stroke-linecap: round;
+    stroke-dasharray: 125;
+    stroke-dashoffset: 125;
+    transform: translate(5px,5px);
+    animation: circleRotate 2s linear infinite;
+}
+@keyframes circleRotate {
+    0%, 100% { stroke-dashoffset: 125 }
+    50% { stroke-dashoffset: 0 }
+    50.01% { stroke-dashoffset: 245 }
+}
+
+.contact .sci {
+    margin: 20px 0 10px 0;
+}
+.contact .sci ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .sci ul li {
+    margin: 0 15px;
+    list-style: none;
+}
+.contact .sci ul li a img {
+    max-width: 30px;
+}
+
+.contact .moreUrl {
+    margin-bottom: 10px;
+}
+.contact .moreUrl ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .moreUrl ul li {
+    margin: 0 12px;
+}
+.contact .moreUrl ul li:nth-child(1) {
+    content: '';
+    list-style: none;
+}
+.contact .moreUrl ul li a {
+    color: #1B8ADB;
+    text-decoration: none;
+}
+.contact .moreUrl ul li a:hover {
+    text-decoration: underline;
+}
+
+.form.invalid .email {
+    border-bottom: 1px solid #ff0000;
+}
+
+@media (max-width: 992px) {
+    .contact {
+        padding: 0 50px;
+    }
+
+    .row100 {
+        flex-direction: column;
+    }
+
+    .contactForm .row100 .inputBx50,
+    .contactForm .row100 .inputBx100 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact .copyright {
+        margin-bottom: 5px;
+    }
+}
