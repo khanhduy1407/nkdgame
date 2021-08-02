@@ -28,8 +28,8 @@
             "send": "Gửi"
         }
     },
-    "license": {
-        "title": "Giấy phép"
+    "comments": {
+        "title": "Bình luận"
     },
     "footer": {
         "feedback": "Phản hồi",

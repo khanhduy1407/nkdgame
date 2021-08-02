@@ -28,8 +28,8 @@
             "send": "Send"
         }
     },
-    "license": {
-        "title": "License"
+    "comments": {
+        "title": "Comments"
     },
     "footer": {
         "feedback": "Feedback",
