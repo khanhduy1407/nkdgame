@@ -33,6 +33,7 @@ function CommentsPage() {
                 </div>
                 <div className={style.moreUrl}>
                     <ul>
+                        <li><a href="https://paypal.me/nkduydev">{t('footer.donate')}</a></li>
                         <li><a href="/feedback">{t('footer.feedback')}</a></li>
                         <li><a href="//github.com/khanhduy1407/nkdgame/blob/master/LICENSE.md" target="_blank">{t('footer.license')}</a></li>
                         <li><a href="/comments">{t('footer.comments')}</a></li>
