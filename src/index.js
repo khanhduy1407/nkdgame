@@ -2,11 +2,12 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Loading from "./loading";
 import './i18next';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <Suspense fallback={(<div>Loading</div>)}>
+    <Suspense fallback={(<Loading />)}>
         <App />
     </Suspense>,
     document.getElementById('root')
